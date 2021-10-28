@@ -1,0 +1,25 @@
+#include<iostream>
+
+using namespace std;
+
+int main()
+
+{
+
+    int check;
+
+    cout<<"Enter a number ";
+
+    cin>>check;
+
+    //checking whether the number is even or odd
+
+    if(check%2==0)
+
+        cout<<check<<" is an Even Number ";
+
+    else
+
+        cout<<check<<" is an Odd Number";
+
+}
