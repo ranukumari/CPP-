@@ -1,0 +1,15 @@
+//SUM OF NUMBERS IN A GIVEN RANGE
+#include<iostream>
+using namespace std;
+int main()
+{
+    int sum=0,upper_limit,lower_limit;
+    cout<<"Enter lower_limit ";
+    cin>>lower_limit;
+    cout<<"Enter upper_limit";
+    cin>>upper_limit;
+    for(int i=lower_limit;i<=upper_limit;i++)
+        sum=sum+i;
+    cout<<"The sum of Natural numbers from "<<lower_limit<<" to "<<upper_limit<<" is "<<sum;
+    return 0;
+}
