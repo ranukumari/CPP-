@@ -1,0 +1,37 @@
+//GREATEST OF 3 NUMBERS
+
+#include<iostream>
+
+using namespace std;
+
+int main()
+
+{
+
+    int first,second,third;
+
+    cout<<"Enter First Number: ";
+
+    cin>>first;
+
+    cout<<"Enter Second Number: ";
+
+    cin>>second;
+
+    cout<<"Enter Third Number: ";
+
+    cin>>third;
+
+    if((first>=second)&&(first>=third))
+
+        cout<<first<<" is GREATEST";
+
+    else if((second>=first)&&(second>=third))
+
+        cout<<second<<" is GREATEST";
+
+    else
+
+        cout<<third<<" is GREATEST";
+
+}
