@@ -1,0 +1,31 @@
+//GREATEST OF TWO NUMBERS
+
+#include<iostream>
+
+using namespace std;
+
+int main()
+
+{
+
+    int first,second;
+
+    cout<<"Enter Two Numbers ";
+
+    cin>>first>>second;
+
+    if(first==second)
+
+        cout<<"Both are equal ";
+
+    else if(first>second)
+
+        cout<<first<<" is greater than "<<second;
+
+    else
+
+        cout<<second<<" is greater than "<<first;
+
+    return 0;
+
+}
