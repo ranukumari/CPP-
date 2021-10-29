@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int sum,n;
+    cout<<"Enter the limit ";
+    cin>>n;
+    sum=n*(n+1)/2;
+    cout<<"Sum of first "<<n<<" Numbers is "<<sum;
+    return 0;
+}
